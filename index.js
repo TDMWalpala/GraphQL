@@ -1,26 +1,34 @@
 const {ApolloServer,gql} = require('apollo-server');
 const EmployeeService = require('./datasources/file');
+const ProjectService = require('./datasources/project');
 
 const typeDefs = gql`
      type Query {
         employees (
             id: ID
-            firstName: String,
-            lastName: String,
-            destination: String,
-            department: String,
+            firstName: String
+            lastName: String
+            destination: String
+            department: String
             nearestCity: String
         ):[Employee],
         findEmployeeById(id:ID): Employee
+        projects:[Project]
+        findProjectById(id:ID) : Project
 
      }
      type Employee {
-         id: ID!
-         firstName: String,
-         lastName: String,
-         destination: String,
-         department: String  @deprecated ( reason:"Since company moving"),
-         nearestCity: String
+        id: ID!
+        firstName: String
+        lastName: String
+        destination: String
+        department: String
+        nearestCity: String
+    }
+    type Project {
+        projectId: ID!
+        projectName: String
+        employees : [Employee]
     }
     `;
 
@@ -31,12 +39,19 @@ const resolvers = {
         },
         findEmployeeById: (params, {id}, {dataSources}, info) => {
             return dataSources.employeeService.getEmployeeById(id)[0];
+        },
+        projects: (parent, args, {dataSources}, info) => {
+            return dataSources.projectService.getProjects();
+        },
+        findProjectById: (parent, {id},  {dataSources}, info) => {
+            return dataSources.projectService.getProjectById(id);
         }
     }
 }
 
 const dataSources = ()=> ({
-    employeeService: new EmployeeService()
+    employeeService : new EmployeeService(),
+    projectService : new ProjectService(),
 
 });
 
