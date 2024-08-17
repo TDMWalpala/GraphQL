@@ -1,182 +1,192 @@
 [
     {
-        "projectId": 1,
-        "projectName": "Epsilon",
-        "employees": [
-            95
-        ]
+      "id": 1,
+      "projectName": "Jagabaya Dua",
+      "startDate": "5/18/2020",
+      "client": "Howe, Ritchie and Quigley",
+      "employees": [1, 2, 3]
     },
     {
-        "projectId": 2,
-        "projectName": "Iota",
-        "employees": [
-            75
-        ]
+      "id": 2,
+      "projectName": "Mandala Asri",
+      "startDate": "6/22/2020",
+      "client": "Steuber Inc",
+      "employees": [4, 1]
     },
     {
-        "projectId": 3,
-        "projectName": "Eta",
-        "employees": [
-            15
-        ]
+      "id": 3,
+      "projectName": "Surya Mandala",
+      "startDate": "7/15/2020",
+      "client": "Funk, Homenick and Christiansen",
+      "employees": [6, 3, 8, 9]
     },
     {
-        "projectId": 4,
-        "projectName": "Eta",
-        "employees": [
-            63,
-            49,
-            25,
-            83
-        ]
+      "id": 4,
+      "projectName": "Kemang Residences",
+      "startDate": "8/11/2020",
+      "client": "Wolff and Sons",
+      "employees": [10, 11]
     },
     {
-        "projectId": 5,
-        "projectName": "Iota",
-        "employees": [
-            79,
-            73
-        ]
+      "id": 5,
+      "projectName": "Puri Mansion",
+      "startDate": "9/19/2020",
+      "client": "Kihn-Harber",
+      "employees": [12, 1, 14]
     },
     {
-        "projectId": 6,
-        "projectName": "Zeta",
-        "employees": [
-            68,
-            12
-        ]
+      "id": 6,
+      "projectName": "BSD City",
+      "startDate": "10/02/2020",
+      "client": "McKenzie and Sons",
+      "employees": [15, 16, 17]
     },
     {
-        "projectId": 7,
-        "projectName": "Zeta",
-        "employees": [
-            7,
-            90,
-            21
-        ]
+      "id": 7,
+      "projectName": "Green Lake City",
+      "startDate": "11/14/2020",
+      "client": "Spencer Group",
+      "employees": [18, 9, 20, 21]
     },
     {
-        "projectId": 8,
-        "projectName": "Zeta",
-        "employees": [
-            11,
-            45,
-            59,
-            26
-        ]
+      "id": 8,
+      "projectName": "Pantai Indah Kapuk",
+      "startDate": "12/01/2020",
+      "client": "Treutel, Moen and Olson",
+      "employees": [2, 23]
     },
     {
-        "projectId": 9,
-        "projectName": "Iota",
-        "employees": [
-            24,
-            37,
-            85,
-            86,
-            60
-        ]
+      "id": 9,
+      "projectName": "Alam Sutera",
+      "startDate": "1/23/2021",
+      "client": "Jast LLC",
+      "employees": [24, 5, 26]
     },
     {
-        "projectId": 10,
-        "projectName": "Delta",
-        "employees": [
-            91,
-            23
-        ]
+      "id": 10,
+      "projectName": "Summarecon Serpong",
+      "startDate": "2/14/2021",
+      "client": "Heller, Green and Cartwright",
+      "employees": [27, 28, 29, 30]
     },
     {
-        "projectId": 11,
-        "projectName": "Kappa",
-        "employees": [
-            45,
-            86,
-            8,
-            57,
-            65
-        ]
+      "id": 11,
+      "projectName": "Gading Serpong",
+      "startDate": "3/05/2021",
+      "client": "Hirthe, Dicki and Swift",
+      "employees": [31, 32]
     },
     {
-        "projectId": 12,
-        "projectName": "Gamma",
-        "employees": [
-            55,
-            95,
-            30,
-            60
-        ]
+      "id": 12,
+      "projectName": "The Springs",
+      "startDate": "4/07/2021",
+      "client": "Dibbert LLC",
+      "employees": [33, 34, 35]
     },
     {
-        "projectId": 13,
-        "projectName": "Gamma",
-        "employees": [
-            34,
-            28,
-            98
-        ]
+      "id": 13,
+      "projectName": "Imperial Klub Golf",
+      "startDate": "5/18/2021",
+      "client": "Pacocha Group",
+      "employees": [36, 37, 38, 39]
     },
     {
-        "projectId": 14,
-        "projectName": "Theta",
-        "employees": [
-            64
-        ]
+      "id": 14,
+      "projectName": "Paramount Serpong",
+      "startDate": "6/29/2021",
+      "client": "Hahn, Windler and Hane",
+      "employees": [40, 41]
     },
     {
-        "projectId": 15,
-        "projectName": "Zeta",
-        "employees": [
-            72,
-            43,
-            53
-        ]
+      "id": 15,
+      "projectName": "Nava Park",
+      "startDate": "7/11/2021",
+      "client": "D'Amore-Collins",
+      "employees": [42, 43, 44]
     },
     {
-        "projectId": 16,
-        "projectName": "Theta",
-        "employees": [
-            27,
-            98,
-            29
-        ]
+      "id": 16,
+      "projectName": "Andara Residences",
+      "startDate": "8/25/2021",
+      "client": "Feil, Gislason and Walker",
+      "employees": [45, 46, 47, 48]
     },
     {
-        "projectId": 17,
-        "projectName": "Alpha",
-        "employees": [
-            98,
-            21,
-            44,
-            32,
-            73
-        ]
+      "id": 17,
+      "projectName": "Casa de Parco",
+      "startDate": "9/14/2021",
+      "client": "Nader, Jacobs and Reilly",
+      "employees": [49, 50]
     },
     {
-        "projectId": 18,
-        "projectName": "Beta",
-        "employees": [
-            31,
-            47,
-            23
-        ]
+      "id": 18,
+      "projectName": "Emerald Bintaro",
+      "startDate": "10/03/2021",
+      "client": "Stark-Schoen",
+      "employees": [51, 52, 53]
     },
     {
-        "projectId": 19,
-        "projectName": "Epsilon",
-        "employees": [
-            26,
-            43,
-            97,
-            16,
-            5
-        ]
+      "id": 19,
+      "projectName": "Citra Raya",
+      "startDate": "11/07/2021",
+      "client": "Spencer Inc",
+      "employees": [54, 55, 56, 57]
     },
     {
-        "projectId": 20,
-        "projectName": "Gamma",
-        "employees": [
-            62,
-            76,
-            42
-        ]
+      "id": 20,
+      "projectName": "Podomoro Golf View",
+      "startDate": "12/15/2021",
+      "client": "Koelpin, Gerlach and Emmerich",
+      "employees": [58, 59]
+    },
+    {
+      "id": 21,
+      "projectName": "Kota Baru Parahyangan",
+      "startDate": "1/26/2022",
+      "client": "Ratke and Sons",
+      "employees": [60, 61, 62]
+    },
+    {
+      "id": 22,
+      "projectName": "Setiabudi Residences",
+      "startDate": "2/14/2022",
+      "client": "Fahey-Kerluke",
+      "employees": [63, 64, 65, 66]
+    },
+    {
+      "id": 23,
+      "projectName": "Bekasi Timur Regensi",
+      "startDate": "3/30/2022",
+      "client": "Will, Bins and Senger",
+      "employees": [67, 68]
+    },
+    {
+      "id": 24,
+      "projectName": "Sunter Park View",
+      "startDate": "4/22/2022",
+      "client": "Barton-Greenholt",
+      "employees": [69, 70, 71]
+    },
+    {
+      "id": 25,
+      "projectName": "Rasuna Epicentrum",
+      "startDate": "5/05/2022",
+      "client": "Parisian-Senger",
+      "employees": [72, 73, 74, 75]
+    },
+    {
+      "id": 26,
+      "projectName": "Senayan Park",
+      "startDate": "6/15/2022",
+      "client": "Kassulke, Daniel and Connelly",
+      "employees": [76, 77]
+    },
+    {
+      "id": 27,
+      "projectName": "The Crest West Vista",
+      "startDate": "7/27/2022",
+      "client": "Kreiger, Gutmann and Runolfsdottir",
+      "employees": [78, 79]
     }
 ]
+  

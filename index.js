@@ -24,10 +24,13 @@ const typeDefs = gql`
         destination: String
         department: String
         nearestCity: String
+        projects: [Project] 
     }
     type Project {
-        projectId: ID!
+        id: ID!
         projectName: String
+        startDate: String
+        client: String
         employees : [Employee]
     }
     `;
@@ -45,7 +48,17 @@ const resolvers = {
         },
         findProjectById: (parent, {id},  {dataSources}, info) => {
             return dataSources.projectService.getProjectById(id);
-        }
+        },
+    },
+    Employee: {
+        async projects(employee, args, {dataSources}, info){
+            let projects = await dataSources.projectService.getProjects();
+            let workingProjects = projects.filter(project =>{
+                return project.employees.includes(employee.id);
+            });
+
+            return workingProjects;
+        },
     }
 }
 

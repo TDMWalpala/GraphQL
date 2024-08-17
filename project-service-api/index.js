@@ -3,7 +3,11 @@ const app = express();
 const port = 3000;
 const items = require('./data/project.json');
 // Middleware to parse JSON bodies
-app.use(express.json());
+app.use((req, res, next) => {
+    console.log(`Requested endpoint: ${req.method} ${req.originalUrl}`);
+    next();
+});
+
 
 
 // Get all items
@@ -13,7 +17,7 @@ app.get('/items', (req, res) => {
 
 // Get a single item by ID
 app.get('/items/:id', (req, res) => {
-    const item = items.find(i => i.projectId === parseInt(req.params.id));
+    const item = items.find(i => i.id === parseInt(req.params.id));
     if (!item) return res.status(404).send('Item not found');
     res.json(item);
 });
